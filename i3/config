@@ -140,11 +140,11 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id polybar
 
 # class                 border    backgr.   text      indicator child_border
-client.focused          #FF00FF   #6A5ACD   #F0F0F0   #FF00FF   #6A5ACD
+client.focused          #a277ff   #a277ff   #F0F0F0   #FF00FF   #a277ff
 client.focused_inactive #555555   #1A1A1A   #AAAAAA   #555555   #1A1A1A
 client.unfocused        #555555   #1A1A1A   #777777   #1A1A1A   #1A1A1A
 client.urgent           #FFFFFF   #FF00FF   #000000   #FF00FF   #FF00FF
-client.placeholder      #8B008B   #1A1A1A   #F0F0F0   #1A1A1A   #1A1A1A
+client.placeholder      #a277ff   #1A1A1A   #F0F0F0   #1A1A1A   #1A1A1A
 client.background       #1A1A1A
 
 ########################################################################
