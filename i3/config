@@ -22,6 +22,8 @@ bindsym $mod+p exec $term -e $m_player
 bindsym $mod+o exec $browser
 bindsym $mod+i exec $discord
 bindsym $mod+Shift+p exec $steam
+bindsym --whole-window $mod+button4 workspace prev_on_output
+bindsym --whole-window $mod+button5 workspace next_on_output
 
 #################
 # End Custom
@@ -29,7 +31,7 @@ bindsym $mod+Shift+p exec $steam
 
 # start dmenu (a program launcher)
 #bindsym ctrl+space exec rofi -show run
-bindsym ctrl+space exec "rofi -show combi -modi window,run,combi -combi-modi window,run"
+bindsym $mod+space exec "rofi -show combi -modi window,run,combi -combi-modi window,run"
 #bindsym ctrl+space exec dmenu_run
 
 # alternatively, you can use the cursor keys:
@@ -65,7 +67,7 @@ bindsym $mod+Shift+w sticky toggle
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+alt+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
